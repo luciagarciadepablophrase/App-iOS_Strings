@@ -14,7 +14,7 @@ phrase:
 
   pull:
     targets:
-      - file: ./booking_<locale>.json
+      - file: ./booking_<locale_id>.json
         params:
           locale_id: es-es, fr-fr, sv-se
           include_empty_translations: true
