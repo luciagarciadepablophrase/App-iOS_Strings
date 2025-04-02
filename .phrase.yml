@@ -16,6 +16,6 @@ phrase:
     targets:
       - file: ./booking_<locale>.json
         params:
-          locale_id: es-es
+          locale_id: es-es, fr-fr, sv-se
           include_empty_translations: true
           exclude_empty_zero_forms: true
