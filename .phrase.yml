@@ -5,7 +5,7 @@ phrase:
   
   push:
     sources:
-    - file: ./booking.json
+    - file: ./Booking.json
      params:
         locale_id: en-gb
     
@@ -14,7 +14,7 @@ phrase:
         
   pull:
     targets:
-    - file: ./booking_<locale>.json
+    - file: ./Booking_<locale>.json
       params:
         locale_id: es-es
         format: json
