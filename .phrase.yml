@@ -1,19 +1,21 @@
 phrase:
   access_token: 01e34e51ae9b6bcd9c3f8275cfce9e7f79807344d20e0ba8105e2b5226db5db4
   project_id: bc4e35f80b98aeb4092f4c63d4314837
+  file_format: simple_json
 
   push:
     sources:
       - file: ./booking.json
         params:
-          locale: en
+          locale_id: en
+          update_translations: true
+        format_options:
+            enable_pluralization: false
 
   pull:
     targets:
       - file: ./booking_<locale>.json
         params:
-          locale: es
-          format: json
-          include_translated_keys: true
+          locale_id: es
           include_empty_translations: true
-          include_key_descriptions: true
+          exclude_empty_zero_forms: true
