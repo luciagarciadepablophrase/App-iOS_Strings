@@ -7,7 +7,7 @@ phrase:
     sources:
       - file: ./Booking.json
         params:
-          locale_id: en-gb
+          locale_id: 47d26d0086a3b01f81614ede6cc92609
           update_translations: true
         format_options:
             enable_pluralization: false
@@ -16,6 +16,6 @@ phrase:
     targets:
       - file: ./Booking_<locale_id>.json
         params:
-          locale_id: es-es, fr-fr, sv-se
+          locale_id: 4b21ef64a2c0c5c421fb9aa15908442d, 42f8f1247af68dec7798434b5ad7b62a, 97f15203cc0da2ccfe3ff325aadb1e33
           include_empty_translations: true
           exclude_empty_zero_forms: true
