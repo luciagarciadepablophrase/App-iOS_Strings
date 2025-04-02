@@ -6,6 +6,7 @@ phrase:
   push:
     sources:
     - file: ./booking.json
+     params:
         locale_id: en-gb
     
 
