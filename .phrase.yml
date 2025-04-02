@@ -16,6 +16,6 @@ phrase:
     targets:
       - file: ./Booking_<locale_id>.json
         params:
-          locale_id: 4b21ef64a2c0c5c421fb9aa15908442d, 42f8f1247af68dec7798434b5ad7b62a, 97f15203cc0da2ccfe3ff325aadb1e33
+          locale_id: 4b21ef64a2c0c5c421fb9aa15908442d
           include_empty_translations: true
           exclude_empty_zero_forms: true
