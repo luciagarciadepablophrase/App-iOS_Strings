@@ -1,7 +1,7 @@
 phrase:
   access_token: 01e34e51ae9b6bcd9c3f8275cfce9e7f79807344d20e0ba8105e2b5226db5db4
   project_id: bc4e35f80b98aeb4092f4c63d4314837
-  file_format: simple_json
+  
   
   push:
     sources:
@@ -16,17 +16,7 @@ phrase:
     - file: ./booking_<locale>.json
       params:
         locale_id: es-es
-        include_empty_translations: false 
-        include_translated_keys: true 
+        format: json
        
-            - file: ./booking_<locale>.json
-      params:
-        locale_id: fr-fr
-        include_empty_translations: false 
-        include_translated_keys: true 
-           - file: ./booking_<locale>.json
-      params:
-        locale_id: sv-se
-        include_empty_translations: false 
-        include_translated_keys: true 
+
        
