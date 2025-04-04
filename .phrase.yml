@@ -17,21 +17,8 @@ phrase:
     targets:
       - file: ./<locale_name>.json
         params:
-          locale_id: c9d9dfc442c4eee8771229b0aa92624a
+          locale_id: 04562baecb1befcdba35e2d0673b66fc, c9d9dfc442c4eee8771229b0aa92624a, 57576eb0ad3d0e373e46572f838a7e79
           update_translations: true
           include_empty_translations: true
           exclude_empty_zero_forms: true
 
-- file: ./<locale_name>.json
-        params:
-          locale_id: c9d9dfc442c4eee8771229b0aa92624a, 57576eb0ad3d0e373e46572f838a7e79
-          update_translations: true
-          include_empty_translations: true
-          exclude_empty_zero_forms: true
-
-          - file: ./<locale_name>.json
-        params:
-          locale_id: 57576eb0ad3d0e373e46572f838a7e79
-          update_translations: true
-          include_empty_translations: true
-          exclude_empty_zero_forms: true
