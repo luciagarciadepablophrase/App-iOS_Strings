@@ -1,0 +1,37 @@
+phrase:
+  access_token: 01e34e51ae9b6bcd9c3f8275cfce9e7f79807344d20e0ba8105e2b5226db5db4
+  project_id: 6e06562c862b92652f3ff798e2dab872
+  file_format: simple_json
+
+  push:
+    sources:
+      - file: ./en-GB.json
+        params:
+          locale_id: cc9479a1107157c437ea7fce7cc83397
+          update_translations: true
+          include_empty_translations: true
+        format_options:
+            enable_pluralization: true
+
+  pull:
+    targets:
+      - file: ./<locale_name>.json
+        params:
+          locale_id: 04562baecb1befcdba35e2d0673b66fc
+          include_translated_keys: true
+          include_empty_translations: true
+          exclude_empty_zero_forms: true
+
+      - file: ./<locale_name>.json
+        params:
+          locale_id: c9d9dfc442c4eee8771229b0aa92624a
+          include_translated_keys: true
+          include_empty_translations: true
+          exclude_empty_zero_forms: true
+
+      - file: ./<locale_name>.json
+        params:
+          locale_id: 57576eb0ad3d0e373e46572f838a7e79
+          include_translated_keys: true
+          include_empty_translations: true
+          exclude_empty_zero_forms: true
