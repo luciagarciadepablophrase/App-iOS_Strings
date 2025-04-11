@@ -5,7 +5,7 @@ phrase:
 
   push:
     sources:
-      - file: ./en-GB.json
+      - file: ./<locale_name>.json
         params:
           locale_id: cc9479a1107157c437ea7fce7cc83397
           update_translations: true
