@@ -17,6 +17,13 @@ phrase:
     targets:
       - file: ./<locale_name>.json
         params:
+          locale_id: cc9479a1107157c437ea7fce7cc83397
+          include_translated_keys: true
+          include_empty_translations: true
+          exclude_empty_zero_forms: true
+    
+      - file: ./<locale_name>.json
+        params:
           locale_id: 04562baecb1befcdba35e2d0673b66fc
           include_translated_keys: true
           include_empty_translations: true
